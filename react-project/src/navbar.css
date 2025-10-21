@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.contact-bar {
+  display: flex;
+  gap: 40px; /* spacing between phone and email sections */
+  align-items: center;
+  padding: 8px 20px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* spacing between icon and label */
+  color: #333;
+}
+
+.contact-item img {
+  height: 16px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+.top-bar .utilities a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #555;
+}
+
+/* Main Nav */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+
+.search {
+  flex: 1;
+  margin: 0 20px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px; 
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.nav-item img {
+  height: 20px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+/* Menu Bar */
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px 0;
+}
+
+.menu-bar a {
+  margin: 0 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.menu-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Promo Banner */
+.promo-banner {
+  background-color: #ffeb3b;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
