@@ -6,118 +6,153 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff;
-  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
 }
 
-/* Top Bar */
-.top-bar {
+/* Top black line */
+.top-border {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+/* Navbar layout */
+.navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #f8f8f8;
-  padding: 8px 20px;
-  font-size: 14px;
-}
-
-.contact-bar {
-  display: flex;
-  gap: 40px; /* spacing between phone and email sections */
   align-items: center;
-  padding: 8px 20px;
-  background-color: #f8f8f8;
-  font-size: 14px;
+  padding: 8px 60px;
 }
 
-.contact-item {
+/* Left section */
+.navbar-left {
   display: flex;
-  align-items: center;
-  gap: 8px; /* spacing between icon and label */
-  color: #333;
+  align-items: flex-end;
+  gap: 4px;
 }
 
-.contact-item img {
-  height: 16px;
-  width: auto;
-  object-fit: contain;
-}
-
-
-.top-bar .utilities a {
-  margin-left: 15px;
+.logo{
+  color: black;
   text-decoration: none;
-  color: #555;
+  font-size: 28px;
+  font-weight: 900;
 }
 
-/* Main Nav */
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
-}
-
-.logo {
-  font-size: 24px;
+.etc {
+  font-size: 10px;
   font-weight: bold;
-  color: #222;
+  margin-bottom: 4px;
+  text-transform: uppercase;
 }
 
-.search {
-  flex: 1;
-  margin: 0 20px;
-  padding: 8px 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.icons {
+/* Right section */
+.navbar-right {
   display: flex;
-  gap: 30px; 
+  align-items: center;
+  gap: 28px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
+/* Nav items */
 .nav-item {
   display: flex;
   align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  color: #333;
-  font-size: 14px;
+  gap: 6px;
+  cursor: pointer;
 }
 
-.nav-item img {
+.icon {
+  width: 18px;
+  height: 18px;
+  stroke: black;
+}
+
+/* Cart */
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cart-icon {
+  width: 20px;
   height: 20px;
-  width: auto;
+  border: 1.5px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-count {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.logo-cart {
+  width: 20px;
+  height: 20px;
   object-fit: contain;
 }
 
-
-/* Menu Bar */
-.menu-bar {
+/* Log In with icon */
+.login-item {
   display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: #222;
-  padding: 10px 0;
 }
 
-.menu-bar a {
-  margin: 0 12px;
-  color: #fff;
+.profile-icon {
+  width: 14px;
+  height: 14px;
+  stroke: white;
+}
+
+.login {
+  color: #4f46e5;
   text-decoration: none;
-  font-size: 15px;
+  font-weight: 500;
 }
 
-.menu-bar a:hover {
+.login:hover {
   text-decoration: underline;
 }
 
-/* Promo Banner */
-.promo-banner {
-  background-color: #ffeb3b;
-  color: #000;
-  text-align: center;
-  padding: 10px;
-  font-weight: bold;
+/* Hamburger */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: black;
+}
+
+/* Bottom divider */
+.bottom-border {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
 }

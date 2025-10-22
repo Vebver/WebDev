@@ -1,76 +1,73 @@
 import "./navbar.css";
-import wishList from "./assets/Wish.png";
-import accountIcon from "./assets/Account.png";
-import cartIcon from "./assets/Cart.png";
-import phoneIcon from "./assets/phone.png";
-import mailIcon from "./assets/Mail.png";
+import cartIcon from './assets/Cart.png'
 
 function Header() {
   return (
     <header>
-      <div class="top-bar">
-        <div className="contact-bar">
-          <div className="contact-item">
-            <img src={phoneIcon} alt="Phone"/>
-            <span>+1 (704) 567 7894</span>
+      <div class="top-border"></div>
+
+      <nav class="navbar">
+        <div class="navbar-left">
+          <a  class="logo" href="#">YATASHA</a>
+          <img src={cartIcon} alt="Cart" class="logo-cart"/>
+        </div>
+
+        <div class="navbar-right">
+          <div class="nav-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z"
+              />
+            </svg>
+            <span>Search</span>
           </div>
 
-          <div className="contact-item">
-            <img src={mailIcon} alt="Email" />
-            <span>support@example.com</span>
+          <div class="nav-item cart">
+            <span>CART</span>
+            <div class="cart-icon">
+              <span class="cart-count">0</span>
+            </div>
           </div>
+
+          <div class="nav-item login-item">
+            <div class="profile-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="profile-icon"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5.121 17.804A4 4 0 018 16h8a4 4 0 012.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+            </div>
+            <a href="#" class="login">
+              Log In
+            </a>
+          </div>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
+      </nav>
 
-        <div class="utilities">
-          <a href="#">Track Order</a>
-          <a href="#">English</a>
-          <a href="#">USD</a>
-        </div>
-      </div>
-
-      <div class="main-nav">
-        <div class="logo">
-          <a>Yatasha</a>Cart
-        </div>
-        <input
-          type="text"
-          class="search"
-          placeholder="Search for products..."
-        />
-        <div class="icons">
-          <a class="nav-item" href="#">
-            <img src={accountIcon} alt="My Account" />
-            <span>Account</span>
-          </a>
-
-          <a class="nav-item" href="#">
-            <img src={wishList} alt="My Wishlist" />
-            <span>Wishlist</span>
-          </a>
-
-          <a class="nav-item" href="#">
-            <img src={cartIcon} alt="My Cart" />
-            <span>Cart</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="menu-bar">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Category</a>
-        <a href="#">Product Details</a>
-        <a href="#">Cart</a>
-        <a href="#">Checkout</a>
-        <a href="#">Dropdown</a>
-        <a href="#">Megamenu V1</a>
-        <a href="#">Megamenu V2</a>
-        <a href="#">Contact</a>
-      </div>
-
-      <div class="promo-banner">
-        🎉 20% off on your first order — Use code: <strong>FIRST20</strong>
-      </div>
+      <div class="bottom-border"></div>
     </header>
   );
 }
