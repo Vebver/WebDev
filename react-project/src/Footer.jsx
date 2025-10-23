@@ -1,11 +1,13 @@
-import './styleFooter.css'
+import "./styleFooter.css";
 
-function Footer(){
-    return(
-        <footer>
-            <p>&copy; YatashaCart</p>
-        </footer>
-    );
+function Footer() {
+  return (
+    <footer>
+      <div class="container-footer">
+        <p>&copy; 2025</p>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;

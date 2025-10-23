@@ -8,15 +8,22 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   background-color: #fff;
   color: #000;
+  padding-top: 10px;
+  overflow: auto;
 }
 
 /*Header Layout*/
 .header {
+  background-color: #fff;
+  top: 0;
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 60px;
+  padding: 10px 60px;
   border-bottom: 1px solid #ddd;
+  z-index: 999;
 }
 
 .header-left {
@@ -24,6 +31,7 @@ body {
   flex-direction: column;
   gap: 3px;
 }
+
 .logo {
   width: 80px;
   height: auto;
@@ -143,7 +151,7 @@ body {
   filter: invert(1);
 }
 
-.login a {
+.login a{
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
