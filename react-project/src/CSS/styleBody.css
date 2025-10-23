@@ -1,0 +1,50 @@
+.container-body{
+    background-color: #FAF7F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 70px;
+    flex-direction: column;
+}
+.About{
+    background-color: #F0E4D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 10px;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    gap: 10px;
+}
+.FAQ{
+    background-color: #DCC5B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 10px;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    gap: 10px;
+}
+.Contact{
+    background-color: #D9A299;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 20px;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    gap: 10px;
+}
+
+.Contact a {
+    text-decoration: none;
+    color: inherit;
+}
+.FAQ h1,.About h1, .Contact h1 {
+    color: red;
+}
