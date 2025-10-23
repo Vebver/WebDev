@@ -43,7 +43,6 @@ body {
   align-items: center;
 }
 
-
 .brand {
   font-size: 28px;
   font-weight: 800;
@@ -75,7 +74,7 @@ body {
   font-weight: 500;
 }
 
-.header-center a.active:hover{
+.header-center a.active:hover {
   color: black;
 }
 .header-center a:hover {
@@ -94,7 +93,7 @@ body {
 .search {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   position: relative;
 }
 
@@ -102,6 +101,7 @@ body {
   width: 18px;
   height: 18px;
   object-fit: contain;
+  margin-left: 5px;
 }
 
 .search a {
@@ -113,7 +113,7 @@ body {
   transition: transform 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
 }
 
-.search a:hover{
+.search a:hover {
   color: red;
   transform: scale(1.15);
 }
@@ -151,7 +151,7 @@ body {
   filter: invert(1);
 }
 
-.login a{
+.login a {
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
@@ -159,7 +159,7 @@ body {
   transition: transform 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
 }
 
-.login a:hover{
+.login a:hover {
   color: red;
   transform: scale(1.15);
 }
@@ -169,4 +169,12 @@ body {
   width: 20px;
   height: 20px;
   object-fit: contain;
+}
+
+.bag img{
+  transition: transform 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
+}
+
+.bag img:hover{
+  transform: scale(1.15);
 }
