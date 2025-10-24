@@ -5,34 +5,128 @@ function Body() {
     <>
       <div class="product-grid">
         <div class="product-card">
-          <span class="badge">Top Sellers</span>
-          <img src={luffyGear4} alt="Product Luffy Gear 4" />
-          <h3>I'm a product</h3>
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
           <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
 
         <div class="product-card">
-          <span class="badge">Top Sellers</span>
-          <img />
-          <h3>I'm a product</h3>
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Product 2</h3>
           <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
 
         <div class="product-card">
-          <span class="badge">Top Sellers</span>
-          <img />
-          <h3>I'm a product</h3>
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Product 3</h3>
           <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
 
         <div class="product-card">
-          <span class="badge">Top Sellers</span>
-          <img />
-          <h3>I'm a product</h3>
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Product 4</h3>
           <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          {/*<span class="badge">Top Sellers</span>*/}
+          <div className="image-container">
+            <img src={luffyGear4} alt="Product Luffy Gear 4" />
+          </div>
+          <h3>Luffy Gear 4</h3>
+          <p>$15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
         </div>
       </div>
 
+      <hr />
+
+      {/* Added About Us*/}
+      <div id="about" className="About">
+        <h1>About Us</h1>
+        <h2>
+          YATASHA Anime Portal is your ultimate destination for all things anime
+          figurines. We are passionate about bringing you the latest news,
+          reviews, and insights into the world of anime collectibles. Whether
+          you're a seasoned collector or just starting your journey, YATASHA
+          Anime Portal has something for everyone.
+        </h2>
+      </div>
       <hr />
       {/*Added About FAQ*/}
       <div id="faq" className="FAQ">
