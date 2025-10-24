@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
 import Body from './Body.jsx';
 
 function App() {
@@ -27,7 +26,6 @@ function App() {
       <div style={{ textAlign: 'center', padding: '20px' }}>
         <h2>Backend Message: {message}</h2>
       </div>
-      <Footer/>
     </>
   );
 }

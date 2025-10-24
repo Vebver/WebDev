@@ -1,4 +1,4 @@
-      import "./CSS/navbar.css";
+import "./CSS/navbar.css";
 import cartIcon from "./assets/Cart.png";
 import searchIcon from "./assets/Search.png";
 import accountIcon from "./assets/User.png";
@@ -9,7 +9,7 @@ function Header() {
     <header className="header">
       <div className="header-left">
         <a href="#">
-          <img src={logo} alt="Yatasha" className="logo"/>
+          <img src={logo} alt="Yatasha" className="logo" />
         </a>
       </div>
 
@@ -26,7 +26,9 @@ function Header() {
       <div className="header-right">
         <div className="search">
           <img src={searchIcon} alt="Search" className="icon" />
-          <a href="#"><span>Search</span></a>
+          <a href="#">
+            <span>Search</span>
+          </a>
           <div className="underline"></div>
         </div>
 

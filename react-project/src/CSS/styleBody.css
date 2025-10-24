@@ -1,12 +1,82 @@
-.container-body{
-    background-color: #FAF7F3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-size: 70px;
-    flex-direction: column;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+/* ✅ Product Grid Layout */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 40px;
+  justify-items: center;
+  margin-top: 90px;
+}
+
+/* ✅ Product Card */
+.product-card {
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* ✅ Hover effect */
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ✅ Product Title */
+.product-card h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* ✅ Price */
+.product-card p {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+/* ✅ Badge */
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+/* ✅ Responsive spacing */
+@media (max-width: 600px) {
+  .product-grid {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .product-card img {
+    max-width: 180px;
+  }
+}
+
 .About{
     background-color: #F0E4D3;
     display: flex;
