@@ -23,9 +23,10 @@ function App() {
     <>
       <Header/>
       <Body/>
-      <div style={{ textAlign: 'center', padding: '20px' }}>
+      {/*<div style={{ textAlign: 'center', padding: '20px' }}>
         <h2>Backend Message: {message}</h2>
       </div>
+      */}
     </>
   );
 }

@@ -114,11 +114,11 @@ function Body() {
         </div>
       </div>
 
-      <hr />
-
       {/* Added About Us*/}
       <div id="about" className="About">
-        <h1>About Us</h1>
+        <div className="container-about">
+          <h1>About Us</h1>
+        </div>
         <h2>
           YATASHA Anime Portal is your ultimate destination for all things anime
           figurines. We are passionate about bringing you the latest news,
@@ -127,8 +127,8 @@ function Body() {
           Anime Portal has something for everyone.
         </h2>
       </div>
-      <hr />
-      {/*Added About FAQ*/}
+
+      {/*Added About FAQ
       <div id="faq" className="FAQ">
         <h1>Frequently Ask Question</h1>
         <h2>
@@ -138,8 +138,9 @@ function Body() {
           latest news, reviews, and insights into the world of anime figurine.
         </h2>
       </div>
-      <hr />
-      {/*Added Contact*/}
+      */}
+      
+      {/*Added Contact
       <div id="contact" className="Contact">
         <h1>Contact</h1>
         <ul>
@@ -154,6 +155,7 @@ function Body() {
           </li>
         </ul>
       </div>
+      */}
     </>
   );
 }
