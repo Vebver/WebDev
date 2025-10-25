@@ -1,0 +1,22 @@
+.social-bar {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.social-bar a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-bar a:hover {
+  color: #ff4c4c; /* highlight color when hovering */
+  transform: scale(1.2);
+}

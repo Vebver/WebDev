@@ -14,7 +14,7 @@ body {
 
 /*Header Layout*/
 .header {
-  background-color: #FAF7F3 ;
+  background-color: white;
   top: 0;
   position: fixed;
   width: 100%;
@@ -22,7 +22,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 60px;
-  border-bottom: 1px solid #ddd;
   z-index: 999;
 }
 

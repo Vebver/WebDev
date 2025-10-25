@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Header from "./Header.jsx";
 import Body from './Body.jsx';
+import SocialMedia from './SocialMedia.jsx';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -23,6 +24,7 @@ function App() {
     <>
       <Header/>
       <Body/>
+      <SocialMedia/>
       {/*<div style={{ textAlign: 'center', padding: '20px' }}>
         <h2>Backend Message: {message}</h2>
       </div>
